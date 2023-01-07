@@ -48,6 +48,14 @@
     font-weight: 600;
     padding: 20px;
     font-size: 15px;
+    transform: 0.1;
+}
+
+.btn-primary:hover{
+    background-color: #9113df;
+    color: #ffffff;
+    padding: 22px;
+    transition: transform .2s; 
 }
 
 .main,
