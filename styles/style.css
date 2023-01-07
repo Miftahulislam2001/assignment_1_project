@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+.bannar-section {
+    background-image: url(../images/banner/banner3.png);
+    background-image: cover;
+    width: 1600px;
+    height: 600px;
+    text-align: right;
+    top: 200px;
+
+}
+
+.vannar-titel {
+    color: white;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+    margin-right: 200px;
+
+}
+
+.vannar-discription {
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    text-align: right;
+    line-height: 27px;
+    margin-right: 200px;
+    margin-top: 24px;
+
+}
+
+.btn-primary {
+    color: rgb(17, 86, 233);
+    width: 160px;
+    height: 62px;
+    margin-right: 200px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.my-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    top: 50px;
+
+}
+
+.my-img-section img {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.my-desc-section {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.my-desc-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 24px;
+}
+
+.my-desc-pera {
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 16px;
+    color: #444343;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    /* list-style-image: url('../images/icons/check-marks.png'); */
+    list-style-type: none;
+    line-height: 26px;
+}
+
+.list-icon {}
+
+li i {
+    color: rgb(16, 205, 16);
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.my-plan-img {
+    width: 65px;
+    margin-bottom: 25px;
+}
+
+.my-plan-title {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 600;
+
+}
+
+.my-pian-title {
+    font-size: ;
+}
+
+.my-plan-para {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.sub-bg {
+    background-image: url('../images/watch.png');
+    height: 200px;
+    width: 1000px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 7px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub-bg-title {
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 50px;
+    top: 200px;
+    padding: 20px;
+
+}
+
+.sub-bg-btn {
+    position: absolute;
+    color: rgb(17, 86, 233);
+    width: 140px;
+    height: 52px;
+    margin-left: 65px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+footer{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    top: 100px;
+}
+.footer-left{
+    color: #FFFFFF;
+    margin-left: 200px;
+    top: 100px;
+}
+.footer-title{
+font-weight: 700;
+font-size: 40px;
+line-height: 53px;
+margin-bottom: 30px;
+}
+.footer-desc{
+    color: silver;
+    font-size: 13px;
+}
+.footer-img{
+    display: inline;
+    border: none;
+   
+}
+.footer-img img{  
+    margin-right: 10px;
+    width: 30px;
+    border: none;
+}
+.footer-right{
+    color: #FFFFFF;
+    margin-right: 200px;
+    top: 100px;
+}
+.footer-right-title{
+    margin-bottom: 30px;
+}
+#footer-id{
+    width: 280px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+}
+.subscribe{
+    margin-top: 16px;
+    width: 170px;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: rgba(42, 95, 210, 0.922);; 
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+
+}
